@@ -1,7 +1,11 @@
-import styles from './tip-calculator.module.scss';
+import { Typography } from '../../components/typography';
 
 const TipCalculator = () => {
-	return <div className={styles.container}>TipCalculator</div>;
+	return (
+		<section>
+			<Typography variant="preset-5">Tip Calculatorssss</Typography>
+		</section>
+	);
 };
 
 export default TipCalculator;

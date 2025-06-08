@@ -1,0 +1,43 @@
+@use "../../styles/vars" as *;
+
+.base {
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+	color: $green-900;
+
+	&.preset-1 {
+		font-size: 3rem;
+		line-height: 4.4375rem;
+		letter-spacing: -0.0625rem;
+	}
+
+	&.preset-2 {
+		font-size: 2rem;
+		line-height: 2.9375rem;
+		letter-spacing: -0.042rem;
+	}
+
+	&.preset-3 {
+		font-size: 1.5rem;
+		line-height: 2.25rem;
+		letter-spacing: 0;
+	}
+
+	&.preset-4 {
+		font-size: 1.25rem;
+		line-height: 1.875rem;
+		letter-spacing: 0;
+	}
+
+	&.preset-5 {
+		font-size: 1rem;
+		line-height: 1.5rem;
+		letter-spacing: 0;
+	}
+
+	&.preset-6 {
+		font-size: 0.8125rem;
+		line-height: 1.1875rem;
+		letter-spacing: 0;
+	}
+}
