@@ -1,0 +1,27 @@
+@use '../../styles/vars' as *;
+
+.tip-button {
+	width: 116px;
+	height: $spacing-600;
+	padding: $spacing-100 $spacing-200;
+	color: $white;
+	transition: background-color 0.2s ease-in-out;
+	background-color: $green-900; // green-900 equivalent
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+
+	&:hover,
+	&:focus {
+		background-color: $green-200; // green-200 equivalent
+	}
+
+	&--selected {
+		background-color: $green-400; // green-400 equivalent
+
+		&:hover,
+		&:focus {
+			background-color: $green-400; // Keep the same color when selected
+		}
+	}
+}
