@@ -1,8 +1,11 @@
-import TipButton from '../../components/tip-button';
-import styles from './tip-calculator.module.scss';
+import { Typography } from '../../components/typography';
 
 const TipCalculator = () => {
-	return <div className={styles.container}><TipButton label="5%" /></div>;
+	return (
+		<section>
+			<Typography variant="preset-5" >Tip Calculatorssss</Typography>
+		</section>
+	);
 };
 
 export default TipCalculator;
